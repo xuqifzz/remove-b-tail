@@ -1,0 +1,16 @@
+{
+  "name": "remove-b-tail",
+  "description": "remove-b-tail",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.bilibili.com/read/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ]
+}
